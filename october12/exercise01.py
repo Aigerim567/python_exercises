@@ -1,7 +1,7 @@
-number = (input("Enter a number: "))
+number = (input("Введите число: "))
 try:
     number = int(number)
     print(number)
 except ValueError:
-    print("Invalid input")
+    print("Это не число")
 
